@@ -1,0 +1,43 @@
+body,h3,p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: auto;
+}
+
+a.a-link {
+  text-decoration: none;
+  color: tomato;
+}
+
+a.not-allow {
+  text-decoration: none;
+  cursor: not-allowed;
+  color: #ddd;
+}
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(239, 239, 239);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bfbfbf;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+::-webkit-scrollbar-corner {
+  background: #bfbfbf;
+}
